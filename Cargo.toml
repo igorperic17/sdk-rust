@@ -10,7 +10,16 @@ license = "MIT/Apache-2.0"
 repository = "https://github.com/blocklessnetwork/sdk-rust"
 
 [dependencies]
+anyhow = "1.0.86"
+byteorder = "1.5.0"
+candle-core = "0.6.0"
+candle-nn = "0.6.0"
+# candle-examples = "0.3.0"
 json = { version = "0.12", default-features = false }
+tokenizers = "0.6.0"
+candle-onnx = "0.6.0"
+protobuf = "3.5.1"
+prost = "0.12.1"
 
 [dev-dependencies]
 serde = { version = "1.0", features = ["derive"] }

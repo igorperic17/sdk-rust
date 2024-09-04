@@ -7,9 +7,11 @@ mod memory;
 mod memory_host;
 mod socket;
 mod socket_host;
+mod nn;
 
 pub use cgi::*;
 pub use error::*;
 pub use http::*;
 pub use memory::*;
 pub use socket::*;
+pub use nn::*;
